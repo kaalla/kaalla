@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://js.arcgis.com/4.9/"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/4.9/esri/css/main.css">
+    <script src="script.js" defer></script>
     <title>Moja strona</title>
 </head>
 <body>
     <header>Księgarnie w Lublinie</header>
+
     <div class="container">
         <div class="c1"> 
             <div class="cc1">
@@ -25,7 +29,9 @@
             
             
         </div>
-        <div class="c2">
+        <div class="c2" id="mapview">
+            <button id="przycisk">Przycisk</button>
+            <button id="przycisk2">Przycisk2</button>
 
         </div>
     </div>
