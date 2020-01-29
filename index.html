@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://js.arcgis.com/4.9/"></script>
+    <script src="https://js.arcgis.com/4.14/"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/4.9/esri/css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/4.14/esri/css/main.css">
     <script src="script.js" defer></script>
+    
     <title>Moja strona</title>
 </head>
 <body>
@@ -16,25 +18,30 @@
     <div class="container">
         <div class="c1"> 
             <div class="cc1">
-                <p><img src="d:\Users\student\Documents\kkoryl\webgis\images\agata.jpg" align="center" width="250" height="150" style="margin: 30px;">ul. 1 Maja 51, Lublin tel. 81 525 85 54</p>
+                <p><img src="d:\Users\student\Documents\kkoryl\webgis\images\agata.jpg" align="center" width="250" height="150" style="margin: 30px;">Agata, ul. 1 Maja 51, Lublin tel. 81 525 85 54</p>
             </div>
             
             <div class="cc2">
-                <p>Krakowskie Przedmieście 52, Lublin
+                
+                <p>Bookland, Krakowskie Przedmieście 52, Lublin
                     tel. 81 534 99 83 <img src="d:\Users\student\Documents\kkoryl\webgis\images\booklamd.jpg"  align="middle" width="250" height="150" style="margin: 30px;"></p>
             </div>
-            <div class="cc3"></div>
-            <div class="cc4"></div>
+
+
+            <div class="cc3">
+                <p>Królewska, Królewska 11, 20-109 Lublin <img src="d:\Users\student\Documents\kkoryl\webgis\images\krolewska.jpg"  align="middle" width="250" height="150" style="margin: 30px;"></p>
+            </div>
+            
+            <div class="cc4">
+                <p>Świat Książki, Stanisława Staszica 2 <img src="d:\Users\student\Documents\kkoryl\webgis\images\krolewska.jpg"  align="middle" width="250" height="150" style="margin: 30px;"></p>
+            </div>
 
             
             
         </div>
       <div>
-        <button id="przycisk1" style="float: top;" >Mapa satelitarna</button>
-        <button id="przycisk2">Mapa topograficzna</button>
-        <button id="przycisk3">Mapa OSM</button>
-        <button id="przycisk4">AGOL</button>
-        <div class="c2" id="mapview"></div>
+
+        <div class="c2" id="viewDiv"></div>
       </div>  
         
 
